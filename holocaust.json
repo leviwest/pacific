@@ -2,32 +2,33 @@
   "nodes": [
 
 
-    {"id": "Australia", "size": 10, "survivor": "country", "opacity": 1},
+    {"id": "Australia", "size": 5, "survivor": "country", "opacity": 1},
 
-    {"id": "AU_IN", "size": 4, "survivor": "boundary", "opacity": 1},
-    {"id": "AU_PNG", "size": 4, "survivor": "boundary", "opacity": 1},
-    {"id": "AU_SI", "size": 4, "survivor": "boundary", "opacity": 1},
-    {"id": "AU_NC", "size": 4, "survivor": "boundary", "opacity": 1},
-    {"id": "AU_H", "size": 4, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_IN", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_PNG", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_SI", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_NC", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_H_S1", "size": 3, "survivor": "boundary", "opacity": 1},
 
-    {"id": "High Seas", "size": 4, "survivor": "highseas", "opacity": 1},
+    {"id": "High Seas", "size": 3, "survivor": "highseas", "opacity": 1},
 
 
 
-    {"id": "Vanuatu", "size": 10, "survivor": "country", "opacity": 1},
+    {"id": "Vanuatu", "size": 5, "survivor": "country", "opacity": 1},
 
-    {"id": "VA_SI", "size": 4, "survivor": "boundary", "opacity": 1},
-    {"id": "VA_NC", "size": 4, "survivor": "boundary", "opacity": 1},
+    {"id": "VA_SI", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "VA_NC", "size": 3, "survivor": "boundary", "opacity": 1},
 
-    {"id": "Solomon Islands", "size": 10, "survivor": "country", "opacity": 1},
+    {"id": "Solomon Islands", "size": 5, "survivor": "country", "opacity": 1},
 
-    {"id": "New Caledonia", "size": 10, "survivor": "country", "opacity": 1}
+    {"id": "New Caledonia", "size": 5, "survivor": "country", "opacity": 1}
 
 
   ],
 
   "links": [
 
+    {"source": "Australia", "target": "AU_H_S1", "value": 1},
 
     {"source": "Vanuatu", "target": "VA_SI", "value": 1},
     {"source": "Vanuatu", "target": "VA_NC", "value": 2},
