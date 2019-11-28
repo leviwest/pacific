@@ -2,6 +2,11 @@
   "nodes": [
 
 
+    {"id": "Australia", "size": 10, "survivor": "country", "opacity": 1},
+
+    {"id": "AU_", "size": 4, "survivor": "boundary", "opacity": 0.5},
+
+
     {"id": "Vanuatu", "size": 10, "survivor": "country", "opacity": 1},
 
     {"id": "VA_SI", "size": 4, "survivor": "boundary", "opacity": 0.5},
@@ -20,7 +25,7 @@
     {"source": "Vanuatu", "target": "VA_SI", "value": 1},
     {"source": "Vanuatu", "target": "VA_NC", "value": 2},
     {"source": "Solomon Islands", "target": "VA_SI", "value": 1},
-    {"source": "New Caledonia", "target": "VA_NC", "value": 2},
+    {"source": "New Caledonia", "target": "VA_NC", "value": 2}
 
 
   ]
