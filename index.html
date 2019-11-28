@@ -118,9 +118,9 @@ var g = svg.append("g")
   var circles = node.append("circle")
       .attr("r", d => d.size*4)  
 
-  .attr("fill", function(d) { if (d.survivor == "Patipa") {
+  .attr("fill", function(d) { if (d.survivor == "treaty") {
       return "#988330";
-    } else if (d.survivor == "Brodman") {
+    } else if (d.survivor == "provisional") {
       return "#5b7a4f";
     } else {
       return "red";

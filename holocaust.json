@@ -2,7 +2,7 @@
   "nodes": [
 
 
-    {"id": "Fiji", "size": 7, "survivor": "treaty", "opacity": 1},
+    {"id": "Fiji", "size": 7, "survivor": "provisional", "opacity": 1},
     {"id": "Vanuatu", "size": 2, "survivor": "treaty", "opacity": 0.2},
     {"id": "Solomon Islands", "size": 2, "survivor": "treaty", "opacity": 0.2}
 
