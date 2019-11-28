@@ -55,7 +55,7 @@
     {"source": "Palau", "target": "IN_PA", "value": 1},
     {"source": "Papua New Guinea", "target": "IN_PNG", "value": 1},
 
-    {"source": "Papua New Guinea", "target": "PNG_H2", "value": 1},
+    {"source": "Papua New Guinea", "target": "High Seas Pocket 2", "value": 1},
     {"source": "Papua New Guinea", "target": "PNG_MI", "value": 1},
     {"source": "Papua New Guinea", "target": "High Seas Pocket 3", "value": 1},
     {"source": "Papua New Guinea", "target": "PNG_SI", "value": 1},
