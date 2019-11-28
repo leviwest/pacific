@@ -16,7 +16,7 @@
     {"id": "High Seas South 1", "size": 3, "survivor": "highseas", "opacity": 1},
 
     {"id": "IN_PH", "size": 3, "survivor": "boundary_p", "opacity": 1},
-    {"id": "IN_PA", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "IN_PA", "size": 3, "survivor": "disputed", "opacity": 1},
     {"id": "IN_PNG", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
     {"id": "Philippines", "size": 5, "survivor": "country", "opacity": 1},
@@ -27,7 +27,7 @@
     {"id": "PNG_SI", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
     {"id": "Micronesia", "size": 5, "survivor": "country", "opacity": 1},
-    {"id": "High Seas Pocket 3", "size": 5, "survivor": "country", "opacity": 1}
+    {"id": "High Seas Pocket 3", "size": 3, "survivor": "highseas", "opacity": 1}
 
 
 

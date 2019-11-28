@@ -124,10 +124,12 @@ var g = svg.append("g")
       return "#C0C0C0";
     } else if (d.survivor == "boundary_p") {
       return "#ffffff";
+    } else if (d.survivor == "disputed") {
+      return "#red";
     } else if (d.survivor == "highseas") {
       return "#e6e600";
     } else {
-      return "red";
+      return "blue";
     }
   })
       .attr("opacity", d => d.opacity)
@@ -153,11 +155,6 @@ var g = svg.append("g")
 
   simulation.force("link")
       .links(graph.links);
-
-
-
-
-
 
 
 
