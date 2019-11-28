@@ -2,9 +2,14 @@
   "nodes": [
 
 
-    {"id": "Fiji", "size": 7, "survivor": "provisional", "opacity": 1},
-    {"id": "Vanuatu", "size": 2, "survivor": "treaty", "opacity": 0.2},
-    {"id": "Solomon Islands", "size": 2, "survivor": "treaty", "opacity": 0.2}
+    {"id": "Vanuatu", "size": 10, "survivor": "country", "opacity": 1},
+
+    {"id": "VA_SI", "size": 4, "survivor": "boundary", "opacity": 0.5},
+    {"id": "VA_NC", "size": 2, "survivor": "boundary", "opacity": 0.5},
+
+    {"id": "Solomon Islands", "size": 10, "survivor": "provisional", "opacity": 1},
+
+    {"id": "New Caledonia", "size": 10, "survivor": "treaty", "opacity": 1}
 
 
   ],
@@ -12,8 +17,10 @@
   "links": [
 
 
-    {"source": "Fiji", "target": "Vanuatu", "value": 1},
-    {"source": "Fiji", "target": "Solomon Islands", "value": 1}
+    {"source": "Vanuatu", "target": "VA_SI", "value": 1},
+    {"source": "Vanuatu", "target": "VA_NC", "value": 2},
+    {"source": "Solomon Islands", "target": "VA_SI", "value": 1},
+    {"source": "New Caledonia", "target": "VA_NC", "value": 2},
 
 
   ]
