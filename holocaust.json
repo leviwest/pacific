@@ -27,7 +27,7 @@
     {"id": "PNG_SI", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
     {"id": "Micronesia", "size": 5, "survivor": "country", "opacity": 1},
-    {"id": "High Seas Pocket 3", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "High Seas Pocket 3", "size": 5, "survivor": "country", "opacity": 1}
 
 
 
