@@ -17,7 +17,6 @@
 
     {"id": "IN_PH", "size": 3, "survivor": "boundary_p", "opacity": 1},
     {"id": "IN_PA", "size": 3, "survivor": "boundary_p", "opacity": 1},
-    {"id": "IN_H2", "size": 3, "survivor": "boundary_p", "opacity": 1},
     {"id": "IN_PNG", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
     {"id": "Philippines", "size": 5, "survivor": "country", "opacity": 1},
@@ -42,31 +41,28 @@
     {"source": "Australia", "target": "AU_SI", "value": 1},
     {"source": "Australia", "target": "AU_NC", "value": 1},
     {"source": "Australia", "target": "AU_IN", "value": 1},
-    {"source": "Australia", "target": "AU_H_S1", "value": 1},
+    {"source": "Australia", "target": "High Seas South 1", "value": 1},
 
     {"source": "Papua New Guinea", "target": "AU_PNG", "value": 1},
     {"source": "Solomon Islands", "target": "AU_SI", "value": 1},
     {"source": "New Caledonia", "target": "AU_NC", "value": 1},
-    {"source": "High Seas South 1", "target": "AU_H_S1", "value": 1},
     {"source": "Indonesia", "target": "AU_IN", "value": 1},
 
     {"source": "Indonesia", "target": "IN_PH", "value": 2},
     {"source": "Indonesia", "target": "IN_PA", "value": 2},
-    {"source": "Indonesia", "target": "IN_H2", "value": 2},
+    {"source": "Indonesia", "target": "High Seas Pocket 2", "value": 2},
     {"source": "Indonesia", "target": "IN_PNG", "value": 1},
 
     {"source": "Philippines", "target": "IN_PH", "value": 1},
     {"source": "Palau", "target": "IN_PA", "value": 1},
-    {"source": "High Seas Pocket 2", "target": "IN_H2", "value": 1},
     {"source": "Papua New Guinea", "target": "IN_PNG", "value": 1},
 
     {"source": "Papua New Guinea", "target": "PNG_H2", "value": 1},
     {"source": "Papua New Guinea", "target": "PNG_MI", "value": 1},
-    {"source": "Papua New Guinea", "target": "PNG_H3", "value": 1},
+    {"source": "Papua New Guinea", "target": "High Seas Pocket 3", "value": 1},
     {"source": "Papua New Guinea", "target": "PNG_SI", "value": 1},
 
     {"source": "Micronesia", "target": "PNG_MI", "value": 1},
-    {"source": "High Seas Pocket 3", "target": "PNG_H3", "value": 1},
     {"source": "Solomon Islands", "target": "PNG_SI", "value": 1}
 
 
