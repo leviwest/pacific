@@ -23,7 +23,16 @@
 
     {"id": "Philippines", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "Palau", "size": 5, "survivor": "country", "opacity": 1},
-    {"id": "High Seas Pocket 2", "size": 3, "survivor": "highseas", "opacity": 1}
+    {"id": "High Seas Pocket 2", "size": 3, "survivor": "highseas", "opacity": 1},
+
+    {"id": "PNG_H2", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "PNG_MI", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "PNG_H3", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "PNG_SI", "size": 3, "survivor": "boundary", "opacity": 1},
+
+    {"id": "Micronesia", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "High Seas Pocket 3", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "Solomon Islands", "size": 5, "survivor": "country", "opacity": 1}
 
 
 
@@ -53,7 +62,16 @@
     {"source": "Philippines", "target": "IN_PH", "value": 1},
     {"source": "Palau", "target": "IN_PA", "value": 1},
     {"source": "High Seas Pocket 2", "target": "IN_H2", "value": 1},
-    {"source": "Papua New Guinea", "target": "IN_PNG", "value": 1}
+    {"source": "Papua New Guinea", "target": "IN_PNG", "value": 1},
+
+    {"source": "Papua New Guinea", "target": "PNG_H2", "value": 1},
+    {"source": "Papua New Guinea", "target": "PNG_MI", "value": 1},
+    {"source": "Papua New Guinea", "target": "PNG_H3", "value": 1},
+    {"source": "Papua New Guinea", "target": "PNG_SI", "value": 1},
+
+    {"source": "Micronesia", "target": "PNG_MI", "value": 1},
+    {"source": "High Seas Pocket 3", "target": "PNG_H3", "value": 1},
+    {"source": "Solomon Islands", "target": "PNG_SI", "value": 1}
 
 
 
