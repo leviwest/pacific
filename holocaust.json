@@ -23,7 +23,7 @@
 
     {"id": "Philippines", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "Palau", "size": 5, "survivor": "country", "opacity": 1},
-    {"id": "High Seas Pocket 2", "size": 3, "survivor": "high seas", "opacity": 1}
+    {"id": "High Seas Pocket 2", "size": 3, "survivor": "highseas", "opacity": 1}
 
 
 
