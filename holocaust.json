@@ -10,30 +10,51 @@
     {"id": "AU_NC", "size": 3, "survivor": "boundary", "opacity": 1},
     {"id": "AU_H_S1", "size": 3, "survivor": "boundary", "opacity": 1},
 
-    {"id": "High Seas", "size": 3, "survivor": "highseas", "opacity": 1},
-
-
-
-    {"id": "Vanuatu", "size": 5, "survivor": "country", "opacity": 1},
-
-    {"id": "VA_SI", "size": 3, "survivor": "boundary", "opacity": 1},
-    {"id": "VA_NC", "size": 3, "survivor": "boundary", "opacity": 1},
-
+    {"id": "Indonesia", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "Papua New Guinea", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "Solomon Islands", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "New Caledonia", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "High Seas South 1", "size": 3, "survivor": "highseas", "opacity": 1},
 
-    {"id": "New Caledonia", "size": 5, "survivor": "country", "opacity": 1}
+    {"id": "AU_IN", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "IN_PH", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "IN_PA", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "IN_H2", "size": 3, "survivor": "boundary", "opacity": 1},
+    {"id": "IN_PNG", "size": 3, "survivor": "boundary", "opacity": 1},
+
+    {"id": "Philippines", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "Palau", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "High Seas Pocket 2", "size": 5, "survivor": "country", "opacity": 1}
+
+
+
 
 
   ],
 
   "links": [
 
+    {"source": "Australia", "target": "AU_PNG", "value": 1},
+    {"source": "Australia", "target": "AU_SI", "value": 1},
+    {"source": "Australia", "target": "AU_NC", "value": 1},
     {"source": "Australia", "target": "AU_H_S1", "value": 1},
 
-    {"source": "Vanuatu", "target": "VA_SI", "value": 1},
-    {"source": "Vanuatu", "target": "VA_NC", "value": 2},
-    {"source": "Solomon Islands", "target": "VA_SI", "value": 1},
-    {"source": "New Caledonia", "target": "VA_NC", "value": 2}
+    {"source": "Papua New Guinea", "target": "AU_PNG", "value": 1},
+    {"source": "Solomon Islands", "target": "AU_SI", "value": 1},
+    {"source": "New Caledonia", "target": "AU_NC", "value": 1},
+    {"source": "High Seas South 1", "target": "AU_H_S1", "value": 1},
+
+
+    {"source": "Indonesia", "target": "IN_PH", "value": 1},
+    {"source": "Indonesia", "target": "IN_PA", "value": 1},
+    {"source": "Indonesia", "target": "IN_H2", "value": 1},
+    {"source": "Indonesia", "target": "IN_PNG", "value": 1},
+
+    {"source": "Philippines", "target": "IN_PH", "value": 1},
+    {"source": "Palau", "target": "IN_PA", "value": 1},
+    {"source": "High Seas Pocket 2", "target": "IN_H2", "value": 1},
+    {"source": "Papua New Guinea", "target": "IN_PNG", "value": 1}
+
 
 
   ]
