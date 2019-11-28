@@ -4,17 +4,24 @@
 
     {"id": "Australia", "size": 10, "survivor": "country", "opacity": 1},
 
-    {"id": "AU_", "size": 4, "survivor": "boundary", "opacity": 0.5},
+    {"id": "AU_IN", "size": 4, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_PNG", "size": 4, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_SI", "size": 4, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_NC", "size": 4, "survivor": "boundary", "opacity": 1},
+    {"id": "AU_H", "size": 4, "survivor": "boundary", "opacity": 1},
+
+    {"id": "High Seas", "size": 4, "survivor": "highseas", "opacity": 1},
+
 
 
     {"id": "Vanuatu", "size": 10, "survivor": "country", "opacity": 1},
 
-    {"id": "VA_SI", "size": 4, "survivor": "boundary", "opacity": 0.5},
-    {"id": "VA_NC", "size": 2, "survivor": "boundary", "opacity": 0.5},
+    {"id": "VA_SI", "size": 4, "survivor": "boundary", "opacity": 1},
+    {"id": "VA_NC", "size": 4, "survivor": "boundary", "opacity": 1},
 
-    {"id": "Solomon Islands", "size": 10, "survivor": "provisional", "opacity": 1},
+    {"id": "Solomon Islands", "size": 10, "survivor": "country", "opacity": 1},
 
-    {"id": "New Caledonia", "size": 10, "survivor": "treaty", "opacity": 1}
+    {"id": "New Caledonia", "size": 10, "survivor": "country", "opacity": 1}
 
 
   ],

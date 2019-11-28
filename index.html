@@ -118,10 +118,12 @@ var g = svg.append("g")
   var circles = node.append("circle")
       .attr("r", d => d.size*4)  
 
-  .attr("fill", function(d) { if (d.survivor == "treaty") {
-      return "#988330";
-    } else if (d.survivor == "provisional") {
-      return "#5b7a4f";
+  .attr("fill", function(d) { if (d.survivor == "country") {
+      return "#40e0d0";
+    } else if (d.survivor == "boundary") {
+      return "#3f3f3f";
+    } else if (d.survivor == "highseas") {
+      return "#e6e600";
     } else {
       return "red";
     }
