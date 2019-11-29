@@ -27,8 +27,15 @@
     {"id": "PNG_SI", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
     {"id": "Micronesia", "size": 5, "survivor": "country", "opacity": 1},
-    {"id": "High Seas Pocket 3", "size": 3, "survivor": "highseas", "opacity": 1}
+    {"id": "High Seas Pocket 3", "size": 3, "survivor": "highseas", "opacity": 1},
 
+    {"id": "MI_PA", "size": 5, "survivor": "boundary_t", "opacity": 1},
+    {"id": "High Seas Pocket 1", "size": 3, "survivor": "highseas", "opacity": 1},
+
+    {"id": "SO_FI", "size": 5, "survivor": "boundary_p", "opacity": 1},
+    {"id": "SO_VA", "size": 5, "survivor": "boundary_t", "opacity": 1},
+    {"id": "SO_NC", "size": 5, "survivor": "boundary_t", "opacity": 1},
+    {"id": "High Seas Pocket 4", "size": 3, "survivor": "highseas", "opacity": 1},
 
 
   ],
@@ -61,7 +68,13 @@
     {"source": "Papua New Guinea", "target": "PNG_SI", "value": 1},
 
     {"source": "Micronesia", "target": "PNG_MI", "value": 1},
-    {"source": "Solomon Islands", "target": "PNG_SI", "value": 1}
+    {"source": "Solomon Islands", "target": "PNG_SI", "value": 1},
+
+    {"source": "Solomon Islands", "target": "High Seas Pocket 3", "value": 1},
+    {"source": "Solomon Islands", "target": "SO_FI", "value": 1},
+    {"source": "Solomon Islands", "target": "High Seas Pocket 4", "value": 1},
+    {"source": "Solomon Islands", "target": "SO_VA", "value": 1},
+    {"source": "Solomon Islands", "target": "SO_NC", "value": 1}
 
 
 
