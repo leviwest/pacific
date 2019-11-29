@@ -31,15 +31,25 @@
     {"id": "Micronesia", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "High Seas Pocket 3", "size": 3, "survivor": "highseas", "opacity": 1},
 
-    {"id": "MI_PA", "size": 5, "survivor": "boundary_t", "opacity": 1},
+    {"id": "MI_PA", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "High Seas Pocket 1", "size": 3, "survivor": "highseas", "opacity": 1},
 
-    {"id": "SI_FI", "size": 5, "survivor": "boundary_p", "opacity": 1},
+    {"id": "SI_FI", "size": 3, "survivor": "boundary_p", "opacity": 1},
     {"id": "SI_VA", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "SI_NC", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "High Seas Pocket 4", "size": 3, "survivor": "highseas", "opacity": 1},
 
-    {"id": "NC_VA", "size": 5, "survivor": "boundary_p", "opacity": 1}
+    {"id": "NC_VA", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "PH_PA", "size": 3, "survivor": "boundary_p", "opacity": 1},
+
+    {"id": "New Zealand", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "Norfolk Islands", "size": 5, "survivor": "country", "opacity": 1},
+
+    {"id": "NC_NO", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "NO_NE", "size": 3, "survivor": "boundary_t", "opacity": 1},
+
+    {"id": "High Seas South 2", "size": 3, "survivor": "highseas", "opacity": 1}
+
 
 
 
@@ -89,13 +99,32 @@
     {"source": "Micronesia", "target": "High Seas Pocket 3", "value": 1},
 
     {"source": "Palau", "target": "MI_PA", "value": 1},
+    {"source": "Palau", "target": "High Seas Pocket 1", "value": 1},
+
+    {"source": "Philippines", "target": "PH_PA", "value": 1},
+    {"source": "PH_PA", "target": "Palau", "value": 1},
+
 
     {"source": "New Caledonia", "target": "NC_VA", "value": 2},
     {"source": "NC_VA", "target": "Vanuatu", "value": 2},
 
     {"source": "Vanuatu", "target": "High Seas Pocket 4", "value": 1},
-    {"source": "Solomon Islands", "target": "High Seas Pocket 4", "value": 1}
+    {"source": "Solomon Islands", "target": "High Seas Pocket 4", "value": 1},
 
+    {"source": "New Caledonia", "target": "NC_NO", "value": 2},
+    {"source": "NC_NO", "target": "Norfolk Islands", "value": 2},
+
+    {"source": "Norfolk Islands", "target": "NO_NE", "value": 1},
+    {"source": "NO_NE", "target": "New Zealand", "value": 1},
+
+    {"source": "Norfolk Islands", "target": "High Seas South 1", "value": 1},
+    {"source": "Norfolk Islands", "target": "High Seas South 2", "value": 2},
+
+    {"source": "New Caledonia", "target": "High Seas South 2", "value": 2},
+    {"source": "New Caledonia", "target": "NC_NO", "value": 2},
+
+    {"source": "New Zealand", "target": "High Seas South 1", "value": 1},
+    {"source": "New Zealand", "target": "High Seas South 2", "value": 2}
 
 
   ]
