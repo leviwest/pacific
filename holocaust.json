@@ -37,7 +37,7 @@
     {"id": "SI_FI", "size": 5, "survivor": "boundary_p", "opacity": 1},
     {"id": "SI_VA", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "SI_NC", "size": 3, "survivor": "boundary_t", "opacity": 1},
-    {"id": "High Seas Pocket 4", "size": 3, "survivor": "highseas", "opacity": 1}
+    {"id": "High Seas Pocket 4", "size": 3, "survivor": "highseas", "opacity": 1},
 
     {"id": "NC_VA", "size": 5, "survivor": "boundary_p", "opacity": 1}
 
