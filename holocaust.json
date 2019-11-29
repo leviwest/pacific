@@ -26,6 +26,8 @@
     {"id": "PNG_MI", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "PNG_SI", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
+    {"id": "Vanuatu", "size": 5, "survivor": "country", "opacity": 1},
+
     {"id": "Micronesia", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "High Seas Pocket 3", "size": 3, "survivor": "highseas", "opacity": 1},
 
@@ -33,9 +35,12 @@
     {"id": "High Seas Pocket 1", "size": 3, "survivor": "highseas", "opacity": 1},
 
     {"id": "SI_FI", "size": 5, "survivor": "boundary_p", "opacity": 1},
-    {"id": "SI_VA", "size": 5, "survivor": "boundary_t", "opacity": 1},
-    {"id": "SI_NC", "size": 5, "survivor": "boundary_t", "opacity": 1},
+    {"id": "SI_VA", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "SI_NC", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "High Seas Pocket 4", "size": 3, "survivor": "highseas", "opacity": 1}
+
+    {"id": "NC_VA", "size": 5, "survivor": "boundary_p", "opacity": 1}
+
 
 
   ],
@@ -62,9 +67,9 @@
     {"source": "Palau", "target": "IN_PA", "value": 1},
     {"source": "Papua New Guinea", "target": "IN_PNG", "value": 1},
 
-    {"source": "Papua New Guinea", "target": "High Seas Pocket 2", "value": 1},
+    {"source": "Papua New Guinea", "target": "High Seas Pocket 2", "value": 2},
     {"source": "Papua New Guinea", "target": "PNG_MI", "value": 1},
-    {"source": "Papua New Guinea", "target": "High Seas Pocket 3", "value": 1},
+    {"source": "Papua New Guinea", "target": "High Seas Pocket 3", "value": 2},
     {"source": "Papua New Guinea", "target": "PNG_SI", "value": 1},
 
     {"source": "Micronesia", "target": "PNG_MI", "value": 1},
@@ -74,7 +79,22 @@
     {"source": "Solomon Islands", "target": "SI_FI", "value": 1},
     {"source": "Solomon Islands", "target": "High Seas Pocket 4", "value": 1},
     {"source": "Solomon Islands", "target": "SI_VA", "value": 1},
-    {"source": "Solomon Islands", "target": "SI_NC", "value": 1}
+    {"source": "Solomon Islands", "target": "SI_NC", "value": 1},
+
+    {"source": "Vanuatu", "target": "SI_VA", "value": 1},
+    {"source": "New Caledonia", "target": "SI_NC", "value": 1},
+
+    {"source": "Micronesia", "target": "MI_PA", "value": 1},
+    {"source": "Micronesia", "target": "High Seas Pocket 1", "value": 1},
+    {"source": "Micronesia", "target": "High Seas Pocket 3", "value": 1},
+
+    {"source": "Palau", "target": "MI_PA", "value": 1},
+
+    {"source": "New Caledonia", "target": "NC_VA", "value": 2},
+    {"source": "NC_VA", "target": "Vanuatu", "value": 2},
+
+    {"source": "Vanuatu", "target": "High Seas Pocket 4", "value": 1},
+    {"source": "Solomon Islands", "target": "High Seas Pocket 4", "value": 1}
 
 
 
