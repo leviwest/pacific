@@ -185,8 +185,8 @@
     {"source": "Guam", "target": "GU_MI", "value": 1},
     {"source": "Micronesia", "target": "GU_MI", "value": 1},
 
-    {"source": "Palau", "target": "High Seas Pocket 2", "value": 2},
-    {"source": "Micronesia", "target": "High Seas Pocket 2", "value": 2}
+    {"source": "Palau", "target": "High Seas Pocket 2", "value": 1},
+    {"source": "Micronesia", "target": "High Seas Pocket 2", "value": 1}
 
 
 
