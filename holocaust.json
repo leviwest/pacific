@@ -48,8 +48,22 @@
     {"id": "NC_NO", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "NO_NE", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
-    {"id": "High Seas South 2", "size": 3, "survivor": "highseas", "opacity": 1}
+    {"id": "High Seas South 2", "size": 3, "survivor": "highseas", "opacity": 1},
 
+    {"id": "Fiji", "size": 5, "survivor": "country", "opacity": 1},
+
+    {"id": "VA_FI", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "NC_VA", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "FI_TU", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "FI_WA", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "FI_TO", "size": 3, "survivor": "boundary_p", "opacity": 1},
+
+    {"id": "Tuvalu", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "Wallis & Futuma", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "Tonga", "size": 5, "survivor": "country", "opacity": 1},
+
+    {"id": "WA_TO", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "TU_WA", "size": 3, "survivor": "boundary_t", "opacity": 1}
 
 
 
@@ -124,7 +138,30 @@
     {"source": "New Caledonia", "target": "NC_NO", "value": 2},
 
     {"source": "New Zealand", "target": "High Seas South 1", "value": 1},
-    {"source": "New Zealand", "target": "High Seas South 2", "value": 2}
+    {"source": "New Zealand", "target": "High Seas South 2", "value": 2},
+
+
+    {"source": "Fiji", "target": "High Seas South 2", "value": 1},
+    {"source": "VA_FI", "target": "Fiji", "value": 1},
+    {"source": "SI_FI", "target": "Fiji", "value": 1},
+    {"source": "VA_FI", "target": "Vanuatu", "value": 2},
+    {"source": "Fiji", "target": "FI_TO", "value": 1},
+    {"source": "Tonga", "target": "FI_TO", "value": 2},
+    {"source": "Fiji", "target": "FI_WA", "value": 1},
+    {"source": "FI_WA", "target": "Wallis & Futuma", "value": 1},
+    {"source": "Fiji", "target": "FI_TU", "value": 1},
+    {"source": "Tuvalu", "target": "FI_TU", "value": 1},
+    {"source": "Fiji", "target": "High Seas Pocket 4", "value": 1},
+    {"source": "Fiji", "target": "High Seas Pocket 3", "value": 1},
+
+    {"source": "Tuvalu", "target": "TU_WA", "value": 1},
+    {"source": "Wallis & Futuma", "target": "TU_WA", "value": 1},
+
+    {"source": "Wallis & Futuma", "target": "WA_TO", "value": 1},
+    {"source": "Tonga", "target": "WA_TO", "value": 1},
+
+    {"source": "Tonga", "target": "High Seas South 2", "value": 1}
+
 
 
   ]
