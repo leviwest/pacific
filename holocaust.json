@@ -62,12 +62,12 @@
     {"id": "Tonga", "size": 5, "survivor": "country", "opacity": 1},
 
     {"id": "WA_TO", "size": 3, "survivor": "boundary_t", "opacity": 1},
-    {"id": "TU_WA", "size": 3, "survivor": "boundary_t", "opacity": 1}
+    {"id": "TU_WA", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
     {"id": "Japan", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "PH_JA", "size": 3, "survivor": "boundary_p", "opacity": 1},
     {"id": "JA_NO", "size": 3, "survivor": "boundary_p", "opacity": 1},
-    
+
     {"id": "Northern Mariana Islands", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "Guam", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "NO_GU", "size": 3, "survivor": "boundary_p", "opacity": 1},
