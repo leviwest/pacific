@@ -53,7 +53,6 @@
     {"id": "Fiji", "size": 5, "survivor": "country", "opacity": 1},
 
     {"id": "VA_FI", "size": 3, "survivor": "boundary_p", "opacity": 1},
-    {"id": "NC_VA", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "FI_TU", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "FI_WA", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "FI_TO", "size": 3, "survivor": "boundary_p", "opacity": 1},
@@ -64,6 +63,14 @@
 
     {"id": "WA_TO", "size": 3, "survivor": "boundary_t", "opacity": 1},
     {"id": "TU_WA", "size": 3, "survivor": "boundary_t", "opacity": 1}
+
+    {"id": "Japan", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "PH_JA", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "JA_NO", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "Northern Mariana Islands", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "Guam", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "NO_GU", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "GU_MI", "size": 3, "survivor": "boundary_t", "opacity": 1}
 
 
 
@@ -115,7 +122,7 @@
     {"source": "Palau", "target": "MI_PA", "value": 1},
     {"source": "Palau", "target": "High Seas Pocket 1", "value": 1},
 
-    {"source": "Philippines", "target": "PH_PA", "value": 1},
+    {"source": "Philippines", "target": "PH_PA", "value": 2},
     {"source": "PH_PA", "target": "Palau", "value": 1},
 
 
@@ -160,7 +167,22 @@
     {"source": "Wallis & Futuma", "target": "WA_TO", "value": 1},
     {"source": "Tonga", "target": "WA_TO", "value": 1},
 
-    {"source": "Tonga", "target": "High Seas South 2", "value": 1}
+    {"source": "Tonga", "target": "High Seas South 2", "value": 1},
+
+    {"source": "Philippines", "target": "PH_JA", "value": 2},
+    {"source": "Japan", "target": "PH_JA", "value": 2},
+
+    {"source": "Japan", "target": "JA_NO", "value": 2},
+    {"source": "Northern Mariana Islands", "target": "JA_NO", "value": 2},
+
+    {"source": "Japan", "target": "High Seas Pocket 1", "value": 2},
+    {"source": "Northern Mariana Islands", "target": "High Seas Pocket 1", "value": 2},
+
+    {"source": "Northern Mariana Islands", "target": "NO_GU", "value": 2},
+    {"source": "Guam", "target": "NO_GU", "value": 2},
+
+    {"source": "Guam", "target": "GU_MI", "value": 1},
+    {"source": "Micronesia", "target": "GU_MI", "value": 1}
 
 
 
