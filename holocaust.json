@@ -225,8 +225,19 @@
     {"source": "Tokelau", "target": "WA_TOK", "value": 1},
 
     {"source": "Wallis & Futuma", "target": "WA_SA", "value": 2},
-    {"source": "Samoa", "target": "WA_SA", "value": 2}
+    {"source": "Samoa", "target": "WA_SA", "value": 2},
 
+    {"source": "Tokelau", "target": "SA_TOK", "value": 2},
+    {"source": "Samoa", "target": "SA_TOK", "value": 2},
+
+    {"source": "Samoa", "target": "TO_SA", "value": 2},
+    {"source": "Tonga", "target": "TO_SA", "value": 2},
+
+    {"source": "Tokelau", "target": "TOK_AM", "value": 1},
+    {"source": "American Samoa", "target": "TOK_AM", "value": 1},
+
+    {"source": "Samoa", "target": "SA_AM", "value": 1},
+    {"source": "American Samoa", "target": "SA_AM", "value": 1}
 
 
 
