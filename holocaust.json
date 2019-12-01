@@ -79,7 +79,7 @@
 
     {"id": "Tokelau", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "WA_TOK", "size": 3, "survivor": "boundary_t", "opacity": 1},
-    {"id": "SA_TOK", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "SA_TOK", "size": 3, "survivor": "boundary_p", "opacity": 1}
 
     // {"id": "American Samoa", "size": 5, "survivor": "country", "opacity": 1},
     // {"id": "TOK_AM", "size": 3, "survivor": "boundary_t", "opacity": 1},
