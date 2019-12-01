@@ -219,7 +219,14 @@
     {"source": "Micronesia", "target": "GU_MI", "value": 1},
 
     {"source": "Palau", "target": "High Seas Pocket 2", "value": 1},
-    {"source": "Micronesia", "target": "High Seas Pocket 2", "value": 1}
+    {"source": "Micronesia", "target": "High Seas Pocket 2", "value": 1},
+
+    {"source": "Wallis & Futuma", "target": "WA_TOK", "value": 1},
+    {"source": "Tokelau", "target": "WA_TOK", "value": 1},
+
+    {"source": "Wallis & Futuma", "target": "WA_SA", "value": 2},
+    {"source": "Samoa", "target": "WA_SA", "value": 2}
+
 
 
 
