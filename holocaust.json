@@ -219,7 +219,19 @@
     {"source": "American Samoa", "target": "TOK_AM", "value": 1},
 
     {"source": "Samoa", "target": "SA_AM", "value": 1},
-    {"source": "American Samoa", "target": "SA_AM", "value": 1}
+    {"source": "American Samoa", "target": "SA_AM", "value": 1},
+
+    {"source": "Tonga", "target": "TO_AM", "value": 2},
+    {"source": "American Samoa", "target": "TO_AM", "value": 2},
+
+    {"source": "Tonga", "target": "TO_NI", "value": 2},
+    {"source": "Niue", "target": "TO_NI", "value": 1},
+
+    {"source": "American Samoa", "target": "AM_NI", "value": 1},
+    {"source": "Niue", "target": "AM_NI", "value": 1},
+
+    {"source": "Niue", "target": "High Seas South 2", "value": 1}
+
 
 
 
