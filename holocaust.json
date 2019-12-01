@@ -79,16 +79,20 @@
 
     {"id": "Tokelau", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "WA_TOK", "size": 3, "survivor": "boundary_t", "opacity": 1},
-    {"id": "SA_TOK", "size": 3, "survivor": "boundary_p", "opacity": 1}
+    {"id": "SA_TOK", "size": 3, "survivor": "boundary_p", "opacity": 1},
 
-    // {"id": "American Samoa", "size": 5, "survivor": "country", "opacity": 1},
-    // {"id": "TOK_AM", "size": 3, "survivor": "boundary_t", "opacity": 1},
-    // {"id": "SA_AM", "size": 3, "survivor": "boundary_p", "opacity": 1},
-    // {"id": "TO_AM", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "American Samoa", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "TOK_AM", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "SA_AM", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "TO_AM", "size": 3, "survivor": "boundary_p", "opacity": 1},
 
-    // {"id": "Niue", "size": 5, "survivor": "country", "opacity": 1},
-    // {"id": "TO_NI", "size": 3, "survivor": "boundary_p", "opacity": 1},
-    // {"id": "AM_NI", "size": 3, "survivor": "boundary_t", "opacity": 1}
+    {"id": "Niue", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "TO_NI", "size": 3, "survivor": "boundary_p", "opacity": 1},
+    {"id": "AM_NI", "size": 3, "survivor": "boundary_t", "opacity": 1}
+
+
+
+
 
 
   ],
@@ -204,34 +208,6 @@
     {"source": "Palau", "target": "High Seas Pocket 2", "value": 1},
     {"source": "Micronesia", "target": "High Seas Pocket 2", "value": 1}
 
-    // {"source": "Wallis & Futuma", "target": "WA_TOK", "value": 1},
-    // {"source": "Tokelau", "target": "WA_TOK", "value": 1},
-
-    // {"source": "Wallis & Futuma", "target": "WA_SA", "value": 2},
-    // {"source": "Samoa", "target": "WA_SA", "value": 2}
-
-    // {"source": "Tokelau", "target": "SA_TOK", "value": 2},
-    // {"source": "Samoa", "target": "SA_TOK", "value": 2},
-
-    // {"source": "Samoa", "target": "TO_SA", "value": 2},
-    // {"source": "Tonga", "target": "TO_SA", "value": 2},
-
-    // {"source": "Tokelau", "target": "TOK_AM", "value": 1},
-    // {"source": "American Samoa", "target": "TOK_AM", "value": 1},
-
-    // {"source": "Samoa", "target": "SA_AM", "value": 1},
-    // {"source": "American Samoa", "target": "SA_AM", "value": 1},
-
-    // {"source": "Tonga", "target": "TO_AM", "value": 2},
-    // {"source": "American Samoa", "target": "TO_AM", "value": 2},
-
-    // {"source": "Tonga", "target": "TO_NI", "value": 2},
-    // {"source": "Niue", "target": "TO_NI", "value": 1},
-
-    // {"source": "American Samoa", "target": "AM_NI", "value": 1},
-    // {"source": "Niue", "target": "AM_NI", "value": 1},
-
-    // {"source": "Niue", "target": "High Seas South 2", "value": 1}
 
 
 
