@@ -88,7 +88,28 @@
 
     {"id": "Niue", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "TO_NI", "size": 3, "survivor": "boundary_p", "opacity": 1},
-    {"id": "AM_NI", "size": 3, "survivor": "boundary_t", "opacity": 1}
+    {"id": "AM_NI", "size": 3, "survivor": "boundary_t", "opacity": 1},
+
+    {"id": "Cook Islands", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "NI_CO", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "AM_CO", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "TO_CO", "size": 3, "survivor": "boundary_t", "opacity": 1},
+
+    {"id": "French Polynesia", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "CO_FR", "size": 3, "survivor": "boundary_t", "opacity": 1},
+
+    {"id": "Pitcairn Islands", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "FR_PI", "size": 3, "survivor": "boundary_t", "opacity": 1},
+
+    {"id": "High Seas Pocket 5", "size": 3, "survivor": "highseas", "opacity": 1},
+
+    {"id": "Kiribati (Line)", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "CO_KIL", "size": 3, "survivor": "boundary_t", "opacity": 1},
+    {"id": "KIL_FR", "size": 3, "survivor": "boundary_t", "opacity": 1},
+
+    {"id": "High Seas East", "size": 3, "survivor": "highseas", "opacity": 1}
+
+
 
   ],
 
