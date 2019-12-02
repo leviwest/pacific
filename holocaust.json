@@ -251,11 +251,40 @@
     {"source": "American Samoa", "target": "AM_NI", "value": 1},
     {"source": "Niue", "target": "AM_NI", "value": 1},
 
-    {"source": "Niue", "target": "High Seas South 2", "value": 1}
+    {"source": "Niue", "target": "High Seas South 2", "value": 1},
 
+    {"source": "Tokelau", "target": "TO_CO", "value": 1},
+    {"source": "Cook Islands", "target": "TO_CO", "value": 1},
 
+    {"source": "American Samoa", "target": "AM_CO", "value": 1},
+    {"source": "Cook Islands", "target": "AM_CO", "value": 1},
 
+    {"source": "Niue", "target": "NI_CO", "value": 1},
+    {"source": "Cook Islands", "target": "NI_CO", "value": 1},
 
+    {"source": "Cook Islands", "target": "High Seas South 2", "value": 1},
+
+    {"source": "Cook Islands", "target": "CO_KIL", "value": 1},
+    {"source": "Kiribati (Line)", "target": "CO_KIL", "value": 1},
+
+    {"source": "Cook Islands", "target": "CO_FR", "value": 1},
+    {"source": "French Polynesia", "target": "CO_FR", "value": 1},
+
+    {"source": "Kiribati (Line)", "target": "KIL_FR", "value": 1},
+    {"source": "French Polynesia", "target": "KIL_FR", "value": 1},
+
+    {"source": "Cook Islands", "target": "High Seas Pocket 5", "value": 1},
+    {"source": "Kiribati (Line)", "target": "High Seas Pocket 5", "value": 1},
+    {"source": "French Polynesia", "target": "High Seas Pocket 5", "value": 1},
+
+    {"source": "French Polynesia", "target": "High Seas South 2", "value": 1},
+
+    {"source": "French Polynesia", "target": "FR_PI", "value": 1},
+    {"source": "Pitcairn Islands", "target": "FR_PI", "value": 1},
+
+    {"source": "French Polynesia", "target": "High Seas East", "value": 1},
+    {"source": "Kiribati (Line)", "target": "High Seas East", "value": 1},
+    {"source": "Pitcairn Islands", "target": "High Seas East", "value": 1}
 
 
   ]
