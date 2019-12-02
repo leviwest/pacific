@@ -70,7 +70,11 @@ d3.json("holocaust.json", function(error, graph) {
   if (error) throw error;
 
 
-
+if (node.type === "country") {
+  const p = projection(node.coordinates)
+  node.fx  = p[0];
+  node.fy = p[1];
+}
 
   var linkNodes = [];
 

@@ -2,7 +2,7 @@
   "nodes": [
 
 
-    {"id": "Australia", "size": 5, "survivor": "country", "opacity": 1},
+    {"id": "Australia", "size": 5, "survivor": "country", "opacity": 1,"fx": -24.336402, "fy": 142.346081},
 
     {"id": "AU_IN", "size": 3, "survivor": "boundary_p", "opacity": 1},
     {"id": "AU_PNG", "size": 3, "survivor": "boundary_t", "opacity": 1},
