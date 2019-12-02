@@ -69,13 +69,6 @@ svg.append("rect")
 d3.json("holocaust.json", function(error, graph) {
   if (error) throw error;
 
-
-if (node.survivor === "country") {
-  const p = projection(node.coordinates)
-  node.fx  = p[0];
-  node.fy = p[1];
-}
-
   var linkNodes = [];
 
   graph.links.forEach(function(link) {
@@ -160,7 +153,11 @@ var g = svg.append("g")
   simulation.force("link")
       .links(graph.links);
 
-
+if (node.survivor === "country") {
+  const p = projection(node.coordinates)
+  node.fx  = p[0];
+  node.fy = p[1];
+}
 
 //add zoom capabilities 
 var zoom_handler = d3.zoom()
