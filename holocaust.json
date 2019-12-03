@@ -2,7 +2,7 @@
   "nodes": [
 
 
-    {"id": "Australia", "size": 0.1, "survivor": "country", "opacity": 1,"fx": -24.336402, "fy": 142.346081},
+    {"id": "Australia", "size": 5, "survivor": "country", "opacity": 1,"fx": -24.336402, "fy": 142.346081},
 
     {"id": "AU_IN", "size": 3, "survivor": "boundary_p", "opacity": 1},
     {"id": "AU_PNG", "size": 3, "survivor": "boundary_t", "opacity": 1},
@@ -10,9 +10,9 @@
     {"id": "AU_NC", "size": 3, "survivor": "boundary_t", "opacity": 1},
 
 
-    {"id": "Indonesia", "size": 0.1, "survivor": "country", "opacity": 1, "fx": -2.423009, "fy": 120.389958},
-    {"id": "Papua New Guinea", "size": 0.1, "survivor": "country", "opacity": 1, "fx": -5.933555, "fy": 147.079212},
-    {"id": "Solomon Islands", "size": 0.1, "survivor": "country", "opacity": 1, "fx": -9.297800, "fy": 160.878988},
+    {"id": "Indonesia", "size": 5, "survivor": "country", "opacity": 1, "fx": -2.423009, "fy": 120.389958},
+    {"id": "Papua New Guinea", "size": 5, "survivor": "country", "opacity": 1, "fx": -5.933555, "fy": 147.079212},
+    {"id": "Solomon Islands", "size": 5, "survivor": "country", "opacity": 1, "fx": -9.297800, "fy": 160.878988},
     {"id": "New Caledonia", "size": 5, "survivor": "country", "opacity": 1},
     {"id": "High Seas South 1", "size": 3, "survivor": "highseas", "opacity": 1},
 
@@ -43,7 +43,7 @@
     {"id": "NC_VA", "size": 3, "survivor": "boundary_p", "opacity": 1},
     {"id": "PH_PA", "size": 3, "survivor": "boundary_p", "opacity": 1},
 
-    {"id": "New Zealand", "size": 0.1, "survivor": "country", "opacity": 1, "fx": -42.724903, "fy": 173.408515},
+    {"id": "New Zealand", "size": 5, "survivor": "country", "opacity": 1, "fx": -42.724903, "fy": 173.408515},
     {"id": "Norfolk Islands", "size": 5, "survivor": "country", "opacity": 1},
 
     {"id": "NC_NO", "size": 3, "survivor": "boundary_t", "opacity": 1},
