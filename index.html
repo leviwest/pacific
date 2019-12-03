@@ -37,6 +37,8 @@ text {
 <script>
 
 
+  var projection = d3.geo.mercator();
+
   var chartDiv = document.getElementById("chart");
   var svg = d3.select(chartDiv).append("svg");
 
